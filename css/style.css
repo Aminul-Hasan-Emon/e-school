@@ -1,0 +1,321 @@
+/* ***** Navbar Toggler Icon ****** */
+
+.navbar-toggler{color:rgba(0,0,0,.55);border-color:rgba(0,0,0,.1)} .navbar-toggler-icon{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")}
+
+/* !-----------------Essentials start--------------- */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+
+
+/* !-----------------Header area start--------------- */
+
+.header {
+    background: #F0FFF0;
+    padding-bottom: 4rem;
+}
+
+
+
+.header .navbar .nav-link {
+    margin: 0 13px;
+    color: black;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: .3s ease;
+}
+.header .navbar .nav-link:hover {
+    color: #21B573;
+}
+.header .navbar .navbar-brand {
+    width: 230px;
+}
+
+.header h5 {
+    font-size: 1.2rem;
+    color: red;
+    font-weight: 600;
+}
+
+/* !-----------------Header area end--------------- */
+
+
+
+/* !-----------------items area start--------------- */
+
+.items {
+    padding: 3rem 0;
+}
+
+.items .card {
+    border: none;
+    background: #F8FFFB;
+    padding: 4rem 0;
+    transition: .4s ease;
+    border-radius: 10px;
+    text-align: center;
+}
+.items .card:hover {
+    box-shadow: 0 0 20px 4px rgba(170, 170, 170, .125);
+    background: white;
+}
+
+
+/* !-----------------items area end--------------- */
+
+
+
+/* !-----------------Courses area start--------------- */
+
+.courses {
+    padding: 3rem 0;
+    background: #FEFEFE;
+}
+
+.courses .card {
+    border-radius: 10px;
+    padding: 1.5rem;
+    border: none;
+    background: white;
+    box-shadow: 0 0 20px 4px rgba(170, 170, 170, 0.125);
+    transition: .4s ease;
+}
+.courses .card:hover {
+    box-shadow: 0 0 20px 10px rgba(170, 170, 170, .3);
+}
+.courses .card .buy {
+    margin: 1.3rem 0 2rem 0;
+}
+
+.courses .card .info {
+    font-size: 18px;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.courses .card img {
+    border-radius: 10px;
+}
+
+.courses .card .card-footer {
+    border: none;
+    background: transparent;
+    padding: 0;
+    text-transform: capitalize;
+}
+.courses .card .card-footer img {
+    margin-right: .5rem;
+}
+.w-90 {
+    width: 90%;
+}
+
+/* !-----------------Courses area end--------------- */
+
+
+
+/* !-----------------Testimonial area start--------------- */
+
+.testimonial {
+    padding: 3rem 0 4rem 0;
+}
+
+.testimonial .img {
+    min-width: 100px;
+    max-width: 100px;
+}
+.testimonial .section-heading {
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+.testimonial .pera {
+    font-size: 18px;
+    color: rgb(95, 95, 95);
+}
+
+
+/* !-----------------Testimonial area end--------------- */
+
+
+/* !-----------------Footer area start--------------- */
+
+.footer {
+    padding: 5rem 0;
+    background: #282531;
+    color: white;
+}
+.footer .pera {
+    width: 90%;
+    margin: auto;
+}
+.footer .footer-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.footer ul li a {
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* !-----------------Footer area end--------------- */
+
+
+/* !-----------------Utility classes start--------------- */
+
+.sign-in {
+    height: 50px;
+    width: 120px;
+    border-radius: 60px;
+    color: white !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    background: #21B573;
+    transition: .4s ease;
+}
+.sign-in:hover {
+    border: 2px solid #21B573;
+    background: transparent;
+    color: #21B573 !important;
+}
+.get-started {
+    height: 50px;
+    width: 180px;
+    border-radius: 60px;
+    color: white !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    background: #21B573;
+    transition: .4s ease;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.get-started:hover {
+    border: 2px solid #21B573;
+    background: transparent;
+    color: #21B573 !important;
+}
+.buy {
+    height: 40px;
+    width: 170px;
+    border-radius: 60px;
+    color: white !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    background: #21B573;
+    transition: .4s ease;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.buy:hover {
+    border: 2px solid #21B573;
+    background: transparent;
+    color: #21B573 !important;
+}
+
+.header-heading {
+    font-size: 2.5rem;
+    margin: .8rem 0;
+    font-weight: 700;
+}
+.section-heading {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 5rem;
+}
+.heading-1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1.1rem 0 .3rem 0;
+}
+.header-pera {
+    line-height: 1.5;
+    color: gray;
+    font-size: 17px;
+    padding: 1rem 0;
+}
+.info {
+    font-size: 16px;
+    color: gray;
+}
+
+.green {
+    color: #21B573;
+}
+
+/* !-----------------Utility classes End--------------- */
+
+
+
+/* !-----------------Responsive area start--------------- */
+
+@media (max-width: 992px) {
+    .header .navbar-brand {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header .navbar-brand {
+        max-width: 180px;
+    }
+}
+
+/* !------lg class------ */
+
+@media (min-width: 992px) {
+    .header .m-container {
+        width: 80%;
+        margin: auto;
+    }
+    .header .row .text {
+        width: 80%;
+    }
+    .header-heading {
+        font-size: 3.5rem;
+        margin: 1rem 0;
+        font-weight: 700;
+    }
+    .header-pera {
+        line-height: 1.9;
+        color: gray;
+        font-size: 17px;
+        padding: 1rem 0;
+    }
+    .footer .pera {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+/* !-----------------Responsive area end--------------- */
+
+
